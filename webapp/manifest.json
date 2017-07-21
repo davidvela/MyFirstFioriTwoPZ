@@ -39,18 +39,16 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "mFFTwoMyFirstFioriTwoPZ.view.App",
+			"viewName": "mFFTwoMyFirstFioriTwoPZ.view.Master",
 			"type": "XML"
 		},
 		"dependencies": {
-			"minUI5Version": "1.30.0",
+			"minUI5Version": "1.46.0",
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
+				"sap.f":{},
 				"sap.ui.layout": {},
-				"sap.ushell": {},
-				"sap.collaboration": {},
-				"sap.ui.comp": {},
 				"sap.uxap": {}
 			}
 		},
@@ -64,6 +62,10 @@
 				"settings": {
 					"bundleName": "mFFTwoMyFirstFioriTwoPZ.i18n.i18n"
 				}
+			},
+			"" : {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/model.json"
 			}
 		},
 		"resources": {
