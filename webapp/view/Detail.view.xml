@@ -6,8 +6,8 @@
 				objectImageAlt="{detail>/Name}" objectSubtitle="{detail>/Category}" isObjectIconAlwaysVisible="false" isObjectTitleAlwaysVisible="false"
 				isObjectSubtitleAlwaysVisible="false">
 				<uxap:actions>
-					<uxap:ObjectPageHeaderActionButton icon="sapicon:// pull-down" text="show section" type="Emphasized"/>
-					<uxap:ObjectPageHeaderActionButton icon="sapicon:// show" text="show state" type="Emphasized"/>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://pull-down" text="show section" type="Emphasized"/>
+					<uxap:ObjectPageHeaderActionButton icon="sap-icon://show" text="show state" type="Emphasized"/>
 					<uxap:ObjectPageHeaderActionButton text="Toggle Footer" hideIcon="true" hideText="false" type="Emphasized" press="toggleFooter"/>
 				</uxap:actions>
 			</uxap:ObjectPageHeader>
