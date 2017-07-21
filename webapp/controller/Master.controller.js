@@ -97,6 +97,21 @@ sap.ui.define([
 		},
 		onToggleFooter: function() {
 			this.getPage().setShowFooter(!this.getPage().getShowFooter());
+		},
+		
+		// routing!
+		handleItemPress: function(oEvent) {
+			var sId = oEvent.getParameter("id"),
+				oSelectedItem = sap.ui.getCore().byId(sId),
+				oModel = oSelectedItem.getModel(),
+				sPath = oSelectedItem.getBindingContextPath(),
+				oData = oModel.getProperty(sPath);
+			this.getRouter().navTo("detailName", {
+				"detail-item": oData.ProductId
+			});
+		},
+		getRouter: function() {
+			return sap.ui.core.UIComponent.getRouterFor(this);
 		}
 	});
 });

@@ -10,7 +10,7 @@ sap.ui.define([
 		},
 		handlePress: function() {
 			this.getRouter().navTo("detailDetailName", {
-				"detaildetail-item ": "item - inner1 ",
+				"detaildetail-item": "item - inner1 ",
 				"detail-item": "item1"
 			});
 		}
