@@ -4,6 +4,7 @@ Finally I found sometime to try the new features from SAPUI5 1.46 and really loo
 with the release of 1.47!!! PDF Viewer =P 
 app preview: 
 ![Pic1](https://github.com/davidvela/MyFirstFioriTwoPZ/blob/master/img/FioriTwoPointZeroMaster.JPG)
+![Pic2](https://github.com/davidvela/MyFirstFioriTwoPZ/blob/master/img/flexibleColumn.JPG)
 
 For the time being this are the steps I did: 
 1. Make my app.view full screen -> 	appWidthLimited: false
@@ -12,4 +13,4 @@ For the time being this are the steps I did:
 4. Add a new master view/controller with the new dynamic page sap.f.DynamicPageHeader
 5. Add floating footer!
 6. Create Master-Detail-Detail Pattern (with flexible column layout)
-7. master-detail last touch - object Page! 
+7. master-detail last touch - object Page!
