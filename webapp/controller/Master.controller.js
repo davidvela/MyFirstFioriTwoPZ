@@ -94,6 +94,9 @@ sap.ui.define([
 			return new sap.m.Label({
 				text: "{/Filter/text}"
 			});
+		},
+		onToggleFooter: function() {
+			this.getPage().setShowFooter(!this.getPage().getShowFooter());
 		}
 	});
 });
