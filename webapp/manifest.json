@@ -39,7 +39,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "mFFTwoMyFirstFioriTwoPZ.view.Master",
+			"viewName": "mFFTwoMyFirstFioriTwoPZ.view.App",
 			"type": "XML"
 		},
 		"dependencies": {

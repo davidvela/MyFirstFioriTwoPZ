@@ -10,4 +10,6 @@ For the time being this are the steps I did:
 2. Adapt my manifest to load the sap.f library! 
 3. Add my model.json
 4. Add a new master view/controller with the new dynamic page sap.f.DynamicPageHeader
-3.
+5. Add floating footer!
+6. Create Master-Detail-Detail Pattern (with flexible column layout)
+7. master-detail last touch - object Page! 

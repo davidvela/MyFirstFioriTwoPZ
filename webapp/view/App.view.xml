@@ -1,5 +1,11 @@
-<mvc:View controllerName="mFFTwoMyFirstFioriTwoPZ.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+<mvc:View controllerName="mFFTwoMyFirstFioriTwoPZ.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.f"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" height="100%">
+	<FlexibleColumnLayout id="fcl">
+		<beginColumnPages>
+			<mvc:XMLView id="beginView" viewName="mFFTwoMyFirstFioriTwoPZ.view.Master"/>
+		</beginColumnPages>
+	</FlexibleColumnLayout>
+	<!-- old sap.m.App
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
@@ -8,5 +14,5 @@
 				</content>
 			</Page>
 		</pages>
-	</App>
+	</App> -->
 </mvc:View>
