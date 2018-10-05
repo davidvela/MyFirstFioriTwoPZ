@@ -14,3 +14,7 @@ For the time being this are the steps I did:
 5. Add floating footer!
 6. Create Master-Detail-Detail Pattern (with flexible column layout)
 7. master-detail last touch - object Page!
+
+
+
+-- start learning again and using standard templates 
