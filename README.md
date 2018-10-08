@@ -18,3 +18,7 @@ For the time being this are the steps I did:
 
 
 -- start learning again and using standard templates 
+
+https://sapui5.hana.ondemand.com/#/sample/sap.f.tutorial.fiori2.02/preview
+https://sapui5.hana.ondemand.com/#/entity/sap.f.tutorial.fiori2
+flexible column layout sapui5
